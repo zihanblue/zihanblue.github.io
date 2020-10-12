@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+
+<head>
+<meta charset="utf-8" />
+<title>SymbolObject</title>
+<script src="SymbolObject.js" type="text/javascript"></script>
+</head>
+
+<body onload="theObject.display();">
+
+<div id="input" style="text-align: center;">
+<form method="get" name="inputForm" id="inputForm">
+
+Change Object's Height to: 
+<select id="heightMenu" onchange="theObject.changeHeight();">
+<option value="1" id="height1">1</option>
+<option value="2" id="height2">2</option>
+<option value="3" id="height3">3</option>
+<option value="4" id="height4">4</option>
+<option value="5" id="height5">5</option>
+<option value="6" id="height6">6</option>
+<option value="7" id="height7">7</option>
+<option value="8" id="height8">8</option>
+<option value="9" id="height9">9</option>
+<option value="10" id="height10">10</option>
+<option value="11" id="height11">11</option>
+<option value="12" id="height12">12</option>
+<option value="13" id="height13">13</option>
+<option value="14" id="height14">14</option>
+<option value="15" id="height15">15</option>
+<option value="16" id="height16">16</option>
+<option value="17" id="height17">17</option>
+<option value="18" id="height18">18</option>
+<option value="19" id="height19">19</option>
+<option value="20" id="height20">20</option>
+<option value="21" id="height21">21</option>
+<option value="22" id="height22">22</option>
+<option value="23" id="height23">23</option>
+<option value="24" id="height24">24</option>
+<option value="25" id="height25">25</option>
+<option value="26" id="height26">26</option>
+<option value="27" id="height27">27</option>
+<option value="28" id="height28">28</option>
+<option value="29" id="height29">29</option>
+<option value="30" id="height30">30</option>
+</select>
+
+<br><br>
+
+Change Object's Symbol to:
+<select id="symbolMenu" onchange="theObject.changeSymbol();">
+<option value="!" id="!">!</option>
+<option value="@" id="@">@</option>
+<option value="£" id="£">£</option>
+<option value="$" id="$">$</option>
+<option value="%" id="%">%</option>
+<option value="^" id="^">^</option>
+<option value="*" id="*">*</option>
+<option value="(" id="(">(</option>
+<option value=")" id=")">)</option>
+<option value="_" id="_">_</option>
+<option value="+" id="+">+</option>
+<option value="1" id="1">1</option>
+<option value="2" id="2">2</option>
+<option value="3" id="3">3</option>
+<option value="4" id="4">4</option>
+<option value="5" id="5">5</option>
+<option value="6" id="6">6</option>
+<option value="7" id="7">7</option>
+<option value="8" id="8">8</option>
+<option value="9" id="9">9</option>
+<option value="0" id="0">0</option>
+<option value="-" id="-">-</option>
+<option value="=" id="=">=</option>
+<option value="Q" id="Q">Q</option>
+<option value="W" id="W">W</option>
+<option value="E" id="E">E</option>
+<option value="R" id="R">R</option>
+<option value="T" id="T">T</option>
+<option value="Y" id="Y">Y</option>
+<option value="U" id="U">U</option>
+<option value="I" id="I">I</option>
+<option value="O" id="O">O</option>
+<option value="P" id="P">P</option>
+<option value="{" id="{">{</option>
+<option value="}" id="}">}</option>
+<option value="q" id="q">q</option>
+<option value="w" id="w">w</option>
+<option value="e" id="e">e</option>
+<option value="r" id="r">r</option>
+<option value="t" id="t">t</option>
+<option value="y" id="y">y</option>
+<option value="u" id="u">u</option>
+<option value="i" id="i">i</option>
+<option value="o" id="o">o</option>
+<option value="p" id="p">p</option>
+<option value="[" id="[">[</option>
+<option value="]" id="]">]</option>
+<option value="A" id="A">A</option>
+<option value="S" id="S">S</option>
+<option value="D" id="D">D</option>
+<option value="F" id="F">F</option>
+<option value="G" id="G">G</option>
+<option value="H" id="H">H</option>
+<option value="J" id="J">J</option>
+<option value="K" id="K">K</option>
+<option value="L" id="L">L</option>
+<option value=":" id=":">:</option>
+<option value="|" id="|">|</option>
+<option value="a" id="a">a</option>
+<option value="s" id="s">s</option>
+<option value="d" id="d">d</option>
+<option value="f" id="f">f</option>
+<option value="g" id="g">g</option>
+<option value="h" id="h">h</option>
+<option value="j" id="j">j</option>
+<option value="k" id="k">k</option>
+<option value="l" id="l">l</option>
+<option value="~" id="~">~</option>
+<option value="Z" id="Z">Z</option>
+<option value="X" id="X">X</option>
+<option value="C" id="C">C</option>
+<option value="V" id="V">V</option>
+<option value="B" id="B">B</option>
+<option value="N" id="N">N</option>
+<option value="M" id="M">M</option>
+<option value="?" id="?">?</option>
+<option value="`" id="`">`</option>
+<option value="z" id="z">z</option>
+<option value="x" id="x">x</option>
+<option value="c" id="c">c</option>
+<option value="v" id="v">v</option>
+<option value="b" id="b">b</option>
+<option value="n" id="n">n</option>
+<option value="m" id="m">m</option>
+<option value="," id=",">,</option>
+<option value="." id=".">.</option>
+</select>
+
+<br><br>
+
+Change Object's Shape to: 
+<select id="shapeMenu" onchange="theObject.changeShape();">
+<option value="Triangle" id="Triangle">Triangle</option>
+<option value="Rectangle" id="Rectangle">Rectangle</option>
+<option value="Pyramid" id="Pyramid">Pyramid</option>
+<option value="Diamond" id="Diamond">Diamond</option>
+</select>
+
+<br><br>
+
+<button type="button" onclick="theObject.randomlyChangeObject();">Randomly Change Object's Height, Symbol and Shape</button>
+
+</form>
+</div>
+
+<br><br>
+
+
+<div style="width: 15em; margin-left: auto; margin-right: auto;" id="output">
+</div>
+</body>
+
+</html>
