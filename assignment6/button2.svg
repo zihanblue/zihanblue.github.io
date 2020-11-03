@@ -1,0 +1,14 @@
+<svg width="105" height="98" viewBox="0 0 105 98" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="button2" clip-path="url(#clip0)">
+<rect width="105" height="98" fill="#F5F4F1"/>
+<line id="Line 1" x1="11.024" y1="12.5001" x2="115.024" y2="13.5001" stroke="black" stroke-width="5"/>
+<line id="Line 2" x1="13" y1="37" x2="81" y2="37" stroke="black" stroke-width="6"/>
+<line id="Line 3" x1="13.0784" y1="62.0008" x2="115.078" y2="64.0008" stroke="black" stroke-width="8"/>
+<line id="Line 4" x1="21.0441" y1="81.0003" x2="89.0441" y2="82.0003" stroke="black" stroke-width="6"/>
+</g>
+<defs>
+<clipPath id="clip0">
+<rect width="105" height="98" fill="white"/>
+</clipPath>
+</defs>
+</svg>
