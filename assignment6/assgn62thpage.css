@@ -1,0 +1,161 @@
+/* island */
+
+h1
+{
+position: absolute;
+width: 219px;
+height: 70px;
+left: 28px;
+top: 23px;
+
+font-family: Swanky and Moo Moo;
+font-style: normal;
+font-weight: normal;
+font-size: 48px;
+line-height: 70px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.32em;
+text-indent: 35px;
+
+color: #231F1F;
+
+
+
+}
+
+/* 一千个人有一千种奔赴大海的路径，每一个海岛也有它独自的性格，你要选择那一座小岛，开启怎样的旅程。 */
+p{
+
+position: absolute;
+width: 598px;
+height: 418px;
+left: 571px;
+top: 236px;
+
+font-family: HanziPen SC;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 50px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.315em;
+
+color: #000000;
+}
+
+/* page 2/2 */
+h2{
+position: absolute;
+width: 223px;
+height: 57px;
+left: 1193px;
+top: 801px;
+
+font-family: HanziPen SC;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 50px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.315em;
+
+color: #000000;
+}
+
+h3{
+    position: absolute;
+    width: 188px;
+    height: 93px;
+    left: 610px;
+    top: 250px;
+    
+    font-family: HanziPen SC;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 64px;
+    line-height: 145%;
+    
+    text-align: center;
+    letter-spacing: 0.32em;
+    
+    
+    color: #000000;
+    
+    
+    }
+
+
+
+
+
+
+
+
+/* button2 */
+.clickmenu{
+position: absolute;
+width: 105px;
+height: 98px;
+left: 46px;
+top: 352px;
+
+background: #F5F4F1;
+}
+
+.clickmenu1{
+
+position: absolute;
+width: 104px;
+height: 0px;
+left: 11px;
+top: 15px;
+
+border: 4px solid #000000;
+transform: rotate(0.55deg);
+
+}
+/* Line 2 */
+.clickmenu2{
+    position: absolute;
+    width: 68px;
+    height: 0px;
+    left: 13px;
+    top: 40px;
+    border: 5px solid #000000;
+    transform: rotate(0.77deg)
+}
+
+/* Line 3 */
+.clickmenu3{
+    position: absolute;
+    width: 102.02px;
+    height: 0px;
+    left: 13px;
+    top: 60px;
+    
+    border: 6px solid #000000;
+    transform: rotate(1.12deg);
+}
+
+/* Line 4 */
+.clickmenu4{
+position: absolute;
+width: 68.01px;
+height: 0px;
+left: 21px;
+top: 84px;
+
+border: 4px solid #000000;
+transform: rotate(0.84deg);
+}
+
+
+
+
+
