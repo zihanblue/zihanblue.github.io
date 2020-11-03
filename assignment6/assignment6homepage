@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html>
+    
+       
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=0.5, maximum-scale=2.0, user-scalable=yes" />
+        <head>
+        <link href="styleforassign6.css" rel="stylesheet"type="text/css">
+        
+       
+                <h1>island</h1>
+    
+    </head>
+    <body>
+
+
+    <style type="text/css">
+    button{
+
+position: absolute;
+width: 150px;
+height: 56px;
+left: 323px;
+top: 654px;
+background: #231F1F;
+text-align: center;
+font-family: Swanky and Moo Moo;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 35px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.315em;
+color:  #FFFFFF;
+    }
+
+        </style>
+       
+   
+    
+  
+      
+        <button><a href="assignment6（1）.html" class="button">开始旅程</a>
+        </button>
+          
+    
+
+<style type="text/css">
+h2.pos_abs{
+position: absolute;
+    width: 516px;
+    height: 185px;
+    left: 404px;
+    top: 183px;
+
+font-family: HanziPen SC;
+font-style: normal;
+font-weight: normal;
+font-size: 72px;
+line-height: 101px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.515em;
+
+color: #000000;
+
+}
+
+</style>
+       
+            <h2 class="pos_abs">海岛旅行</h2>
+
+    
+                   
+
+            <h4>从南到北</h4>
+
+   <style type="text/css">
+h4.pos{
+   position: absolute;
+   width: 406px;
+   height: 69px;
+   left: 517px;
+   top: 531px;
+}
+h4.posabc{
+    position: absolute;
+width: 300px;
+height: 52px;
+left: 626px;
+top: 602px;}
+h4.posaaa{
+
+    position: absolute;
+    width: 637px;
+    height: 105px;
+    left: 458px;
+    top: 368px;
+    
+    font-family: HanziPen SC;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.515em;
+    
+    color: #000000;
+    
+}
+
+</style>
+   
+   <h4 class="pos">找到你的那片</h4>
+   <h4 class="posabc">心灵小岛。</h4>
+   <h4 class="posaaa">沿着中国的海岸线</h4>   
+   
+<h3>page 1/2</h3>
+
+<style type="text/css">
+.bb{
+position: absolute;
+width: 664px;
+height: 348px;
+left: 776px;
+top: 541px;
+
+background-image: url(images/webp\ \(3\)\ 1.png);
+background-repeat:no-repeat;
+mix-blend-mode: color-burn;
+}
+</style>
+
+<div class="bb"></div>
+
+<style>
+img{
+    position: absolute;
+width: 105px;
+height: 98px;
+left: 46px;
+top: 352px;
+
+}
+</style>
+<p>
+    <a href="ass6menu.html"><img src="images/button2.svg"></a>
+</p>
+
+
+<style>
+img.yyy{
+position: absolute;
+width: 57.07px;
+height: 27.09px;
+left: 45%;
+top: 105%;
+overflow-y: scroll;
+    transform: translateX(-50%);
+    animation: Vector/Default__rotation__1 308ms 0ms linear forwards, Vector/Default__rotation__2 314ms 308ms linear forwards, Vector/Default__x__1 308ms 0ms linear forwards, Vector/Default__x__2 314ms 308ms linear forwards, Vector/Default__y__1 308ms 0ms linear forwards, Vector/Default__y__2 314ms 308ms linear forwards, Vector/Default__width__1 308ms 0ms linear forwards, Vector/Default__width__2 314ms 308ms linear forwards, Vector/Default__height__1 308ms 0ms linear forwards, Vector/Default__height__2 314ms 308ms linear forwards, Vector/Default__opacity__1 308ms 0ms linear forwards, Vector/Default__opacity__2 314ms 308ms linear forwards, Vector/Default__fillColor__1 308ms 0ms linear forwards, Vector/Default__fillColor__2 314ms 308ms linear forwards;
+}
+
+@keyframes Vector/Default__rotation__1 {
+    from {
+        transform: translateX(-50%) rotate(3deg);
+    }
+
+    to {
+        transform: translateX(-50%) rotate(3deg);
+    }
+}
+@keyframes Vector/Default__rotation__2 {
+    from {
+        transform: translateX(-50%) rotate(3deg);
+    }
+
+    to {
+        transform: translateX(-50%) rotate(3deg);
+    }
+}
+@keyframes Vector/Default__x__1 {
+    from {
+        left: 752.5365px;
+    }
+    to {
+        left: 752.4974px;
+    }
+}
+@keyframes Vector/Default__x__2 {
+    from {
+        left: 752.4974px;
+    }
+
+    to {
+        left: 748.4974px;
+    }
+}
+@keyframes Vector/Default__y__1 {
+    from {
+        top: 807px;
+    }
+
+    to {
+        top: 746.4935px;
+    }
+}
+@keyframes Vector/Default__y__2 {
+    from {
+        top: 746.4935px;
+    }
+
+    to {
+        top: 796.4935px;
+    }
+}
+@keyframes Vector/Default__width__1 {
+    from {
+        width: 57.07306671142578px;
+    }
+
+    to {
+        width: 57.07310104370117px;
+    }
+}
+@keyframes Vector/Default__width__2 {
+    from {
+        width: 57.07310104370117px;
+    }
+
+    to {
+        width: 57.07310104370117px;
+    }
+}
+@keyframes Vector/Default__height__1 {
+    from {
+        height: 27.093582153320312px;
+    }
+
+    to {
+        height: 27.093599319458008px;
+    }
+}
+@keyframes Vector/Default__height__2 {
+    from {
+        height: 27.093599319458008px;
+    }
+
+    to {
+        height: 27.093599319458008px;
+    }
+}
+@keyframes Vector/Default__opacity__1 {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+@keyframes Vector/Default__opacity__2 {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+@keyframes Vector/Default__fillColor__1 {
+    from {
+        background-color: rgba(255,255,255,1);
+    }
+
+    to {
+        background-color: rgba(255,255,255,1);
+    }
+}
+@keyframes Vector/Default__fillColor__2 {
+    from {
+        background-color: rgba(255,255,255,1);
+    }
+
+    to {
+        background-color: rgba(255,255,255,1);
+    }
+}
+
+</style>
+
+
+<a href="assignment6(1).html">
+<img class="yyy"src="images/Vector/Default.png">
+</a>
+
+
+
+
+
+    </body>
+</html>
+
+
+    
+
