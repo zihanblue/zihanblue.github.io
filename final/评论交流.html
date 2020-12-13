@@ -1,0 +1,202 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>islands</title>
+        <link rel="icon" type="image/x-icon" href="线性海岛.png" />
+
+
+
+
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="contentstyles.css" rel="stylesheet" />
+        <style>
+            body{background-color: rgb(31, 30, 30)}
+            </style>
+    </head>
+    
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+            <div class="container">
+                <a class="navbar-brand js-scroll-trigger" href="#page-top">islands</a>
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    导航
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="ass9.html">首页</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="热门攻略.html">热门攻略</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="小岛总览.html">小岛总览</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="评论交流.html">评论交流</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="contact.html">联系我们</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+
+        
+
+
+<div style="margin-top: 3%;margin-left: 10%;margin-right:10%;background-color: whitesmoke;">
+
+
+<link rel="stylesheet" href="commentcss/semantic.css" type="text/css" />
+
+<link rel="stylesheet" href="commentcss/zyComment.css" type="text/css" />
+
+
+
+
+<style type="text/css" media="print, screen" >  
+
+	label {
+
+	    font-weight: bold;
+
+	}
+
+	
+
+	a {
+
+        font-family: Microsoft YaHei;
+        
+
+	}
+
+	
+
+	#articleComment {
+
+		width: 600px;
+
+		height: 1500px;
+
+		overflow: auto;
+
+	}
+
+</style> 
+
+
+
+
+<body>
+
+	<div id="articleComment" style="margin-left: 25%;margin-top: 10%;"></div>
+
+	
+
+	<script type="text/javascript" src="commentjs/jquery-1.7.2.min.js"></script>
+
+	<script type="text/javascript" src="commentjs/zyComment.js"></script>
+
+	
+
+	<script type="text/javascript">
+
+	
+
+		var agoComment = [
+
+		                  {"id":1,"userName":"游客1","time":"2014-04-04","sortID":0,"content":"第一条评论"},
+
+		                  {"id":2,"userName":"游客2","time":"2014-04-04","sortID":0,"content":"第二条评论"},
+
+		                  {"id":3,"userName":"站长","time":"2014-04-04","sortID":1,"content":"第一条评论的回复"},
+
+		                  {"id":4,"userName":"站长","time":"2014-04-04","sortID":2,"content":"第二条评论的回复"},
+
+		                  {"id":5,"userName":"游客3","time":"2014-04-04","sortID":0,"content":"第三条评论"},
+
+		                  {"id":6,"userName":"游客2","time":"2014-04-04","sortID":4,"content":"第二条评论的回复的回复"},
+
+		                  ];
+
+		$("#articleComment").zyComment({
+
+			"width":"355",
+
+			"height":"33",
+
+			"agoComment":agoComment,
+
+			"callback":function(comment){
+
+				console.info("填写内容返回值：");
+
+				console.info(comment);
+
+
+
+				// 添加新的评论
+
+				$("#articleComment").zyComment("setCommentAfter",{"id":123, "name":"name", "content":"content", "time":"2014-04-14"});
+
+
+
+			}
+
+		});
+
+		
+
+		
+
+	
+
+	</script>
+
+</body>
+</div>
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            
+       
+
+ <!-- Footer-->
+ <footer class="footer bg-black small text-center text-white-50"><div class="container">Copyright © 小众海岛islands 2020</div></footer>
+ <!-- Bootstrap core JS-->
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
+ <!-- Third party plugin JS-->
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+ <!-- Core theme JS-->
+ <script src="js/scripts.js"></script>
+
+</html>
